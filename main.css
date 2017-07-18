@@ -1,0 +1,276 @@
+ @font-face {
+                font-family: Montserrat-Regular; /* Имя шрифта */
+                src: url(fonts/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+            } @font-face {
+                font-family: Montserrat-Bold; /* Имя шрифта */
+                src: url(fonts/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+                font-family: RobotoSlab-Regular; /* Имя шрифта */
+                src: url(fonts/RobotoSlab-Regular.ttf); /* Путь к файлу со шрифтом */
+            }
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            center{
+                width: 1140px;
+                margin: 0 auto;
+            }
+            ul li{
+                display: inline-block;
+                margin-left:  30px;
+            }
+            a{
+                font-size: 16px;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            li{
+                list-style: none;
+            }
+            h1,h2,h3,h4,h5,h6{
+                text-align: center;
+                font-weight: normal;
+            }
+            h3,h1,h2,h4{
+                font-family: Montserrat-Regular;
+            }
+            body{
+                background-color: white;
+                font-family: RobotoSlab-Regular;
+            }
+            .flex_box{
+                margin-top: 70px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: 14px;
+            }
+            .header {
+                height: 770px;
+                overflow: hidden;
+                background: url('img/b1.png') no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                color: white;
+            }
+            .header > center > div:first-child {
+                position: relative;
+                margin-top: 40px;
+                height: 22px;
+            }
+            .header > center > div:first-child > h2{
+                position: absolute;
+                font-family: Montserrat-Bold;
+                left: 0;
+                top: -4px;
+            }
+            .header > center > div:first-child > ul{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+           .header a {
+                color: white;
+                font-size: 14px;
+                font-family: Montserrat-Regular;
+            }
+            .header a:hover{
+	           text-decoration: underline;
+}
+            
+            .center_header {
+                margin-top: 250px;
+                width: 600px;
+            }           
+            .center_header h1{
+                font-size: 48px;
+            }
+            .center_header h3 {
+                margin-top: 13px;
+                font-family: RobotoSlab-Regular;
+                font-size: 20px;
+                margin-bottom: 65px;
+            }
+            .center_header  a{
+                padding: 16px 36px;
+                border: 2px solid white;
+                border-radius: 2px;
+            }
+            .center_header a:hover {
+                color:rgb(192,48,28);
+               background: white;
+                font-size: 16px;
+                
+            }
+            .block {
+                color: rgb(85,85,85);
+                padding-top: 100px;
+                padding-bottom: 100px;
+                overflow: hidden;
+            }
+            .block > center > img, .block > center > span{
+                margin-top: 30px;
+                display: block;
+            }  
+            .service > div {
+                width: 365px;
+                height: 217px;
+           }
+
+            .service img {
+                height: 90px;
+            }
+            .service :nth-child(2){
+                    width: 350px;
+                }
+           .service h4{
+                margin-top: 30px;
+                margin-bottom: 25px;
+            }
+
+            .back3 {
+                background-color: rgb(248,248,248);    
+            }
+            .about{
+                text-align: justify;
+            }
+            .about > div {
+                width: 555px;
+            }  
+            .slider {
+	           position: relative;
+
+                
+}
+            .slider > div{
+	           width: 263px;
+
+}
+            .slider h4{
+                font-family:RobotoSlab-Regular; 
+            }
+            .slider h3{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+ 
+            .hover_slider {
+                position: relative;
+                height: 250px;
+
+            }
+            .hover_slide_img {
+	           position: absolute;
+                left:0;
+                top:0;
+}
+            #left {
+                position: absolute;
+                left: 0;
+                top:104px;
+                padding:14px;
+                background: gray;     
+                border-radius: 1px;
+                opacity: 0.6;
+                z-index: 10;
+            }
+            #right{
+            position: absolute;
+                right: 0;
+                top:104px;
+                padding:14px;
+                background: gray;
+                border-radius: 1px;
+                opacity: 0.6;
+                z-index: 10;
+            }
+            #left:hover, #right:hover {
+	            background-color:  rgb(192,48,28);
+                opacity: 1;
+}
+            #social {
+                position: absolute;
+                left:64px;
+                height: 25px;
+                
+                width: 138px;
+            
+                bottom: 20px;
+            }
+            #social > img{
+                height: 15px;
+/*                margin: 0 5px;*/
+                padding: 5px 7px;
+
+            }
+            #social > img:hover{
+	            background-color:  rgb(192,48,28);
+}
+            .block4 ul li a:hover{
+                color: rgb(192,48,28);
+                cursor: pointer;
+                text-decoration: underline;
+            }
+
+            .kub {
+                margin-top: 70px;
+                height: 1020px;
+                flex-flow: row wrap;
+                align-content:space-between;
+            }
+            .kub > div {
+                width: 360px;
+                height: 320px;
+                position: relative;
+                overflow: hidden;
+            }
+            .work_hover {
+                
+	           position: absolute;
+                top: 0;
+                left: 0;
+                
+            }
+            .work_centr {
+
+                color: white;
+                position: absolute;
+                left: 130px;
+                top: 100px;
+
+                
+}
+            .work_centr h3{
+	           margin-bottom: 15px;
+}
+            .work_centr h5{
+	           margin-bottom: 35px;
+}
+            .work_centr a{
+                font-size: 14px;
+	            color:  rgb(192,48,28);;
+                background-color: white;
+                padding: 10px 25px; 
+}
+            .block5 {
+                background-image: url(img/footer.png);
+                color: white;
+            }
+            .block5 div{
+                text-align: center;
+                margin-top: 100px;
+                margin: 0 auto;
+                height: 100px;
+                width: 300px;
+            }
+            .block5 span {
+                margin: 0 auto;
+                width: 190px;
+                align-content: space-around;
+                margin-bottom: 50px;
+                font-size: 12px;
+            }
